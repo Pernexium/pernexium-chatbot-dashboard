@@ -1,0 +1,10 @@
+openpyxl
+pytz
+mysql-connector-python == 8.1.0
+numpy
+pandas
+datetime
+wordcloud
+matplotlib
+boto3
+plotly
