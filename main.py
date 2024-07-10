@@ -47,6 +47,12 @@ with st.sidebar:
     'Selecciona la página',
     ('Dashboard',))
     
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image('./img/PXM Logotipo 2.png', use_column_width=True)
+    with col2:
+        st.image('./img/doit_logo.png', width = 150)
+    
 if page == 'Dashboard':
     
     st.header("Dashboard Chatbot")
